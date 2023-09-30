@@ -27,3 +27,5 @@ Este documento aborda as coisas importantes que o jornal precisa ter, dando uma 
 6 REFERÊNCIAS
 https://www.folha.uol.com.brJornal 
 referência para a escrita
+
+LINK DO SITE: https://dodoso-23.github.io/jornal-TMV/
