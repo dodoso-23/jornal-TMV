@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+@font-face {
+    font-family: fonte-principal;
+    src: url(Junge-Regular.ttf);
+}
+
+@font-face {
+    font-family: fonte-2;
+    src: url(AbhayaLibre-ExtraBold.ttf);
+}
+
+
+
+p{
+    font-family: fonte-principal;
+    font-size: 16px;
+    text-align: justify;
+}
+
+h2{
+    font-family: fonte-principal;
+    
+}
+
+
+
+.header1{
+    display: flex;
+    justify-content: center;
+}
+
+.titulo{
+    font-size: 60px;
+    padding: 15px;
+    border-right: 3px solid black;
+}
+
+.logo{
+    height: 90px;
+    width: 90px;
+    text-align: center;
+    padding-left: 20px;
+}
+
+nav{
+    display: flex;
+    border-top: 2px solid #9826F2;
+    border-bottom: 2px solid #9826F2;
+    display: flex;
+    padding: 5px;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.linha-separa{
+    height: 23px;
+    border-right: 2px solid rgb(0, 0, 0);
+}
+
+.sessoes{
+    font-size: 20px;
+    /* border-right: 2px solid black; */
+    /* padding-right: 70px; */
+}
+
+.sessoes1{
+    font-size: 20px;
+}
+
+.link{
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+}
+
+.titulo2{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+body{
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.sessao-noticias{
+    display: grid;
+    grid-template-areas: 'esquerda direita'
+                         'esquerda direita';
+    grid-template-columns: 50% 50%;
+    text-align: justify;
+    gap: 12px;
+}
+
+#esquerda{
+    border-right: 4px solid #9826F2;
+    padding: 10px ;
+}
+
+#direita{
+    padding-right: 10px
+}
+
+.dietbot{
+    width: 600px;
+    height: 230px;
+}
+
+.borda-baixo{
+    height: 6px;
+    width: 100%;
+    background-color: #9826F2
+    
+}
+

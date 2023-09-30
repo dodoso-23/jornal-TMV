@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: fonte-principal;
+    src: url(Junge-Regular.ttf);
+}
+
+@font-face {
+    font-family: fonte-2;
+    src: url(AbhayaLibre-ExtraBold.ttf);
+}
+
+main{
+    height: 250vh;
+}
+
+
+p{
+    font-family: fonte-principal;
+    font-size: 16px;
+    text-align: justify;
+}
+
+h2{
+    font-family: fonte-principal;
+    
+}
+h3{
+    font-family: fonte-principal;
+    
+}
+
+
+
+.header1{
+    display: flex;
+    justify-content: center;
+}
+
+.titulo{
+    font-size: 60px;
+    padding: 15px;
+    border-right: 3px solid black;
+}
+
+.logo{
+    height: 90px;
+    width: 90px;
+    text-align: center;
+    padding-left: 20px;
+}
+
+nav{
+    display: flex;
+    border-top: 2px solid #9826F2;
+    border-bottom: 2px solid #9826F2;
+    display: flex;
+    padding: 5px;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.linha-separa{
+    height: 23px;
+    border-right: 2px solid rgb(0, 0, 0);
+}
+
+.sessoes{
+    font-size: 20px;
+    /* padding-right: 70px; */
+}
+
+.sessoes1{
+    font-size: 20px;
+}
+
+.link{
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+}
+
+.titulo2{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+body{
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+
+.grid-container{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 'red-box yellow-box' 'green-box green-box' ;
+    gap: 1%;
+    padding-top: 3%;
+}
+
+.sessao-primaria{
+    display: flex;
+}
+
+.img-greenbox{
+    display: flex;
+    flex-direction: column;
+    height: 60vh;
+    width: 40vw;
+    margin-top: 30vh;
+}
+
+.green-box{
+    background-color: green;
+    grid-area: green-box;
+}
+
+.container{
+    grid-area: red-box;
+    width: 20vw;
+    margin-left: 5vw;
+    display: flex;
+    flex-direction: column;
+    text-align: justify ;
+    
+}
+
+.yellow-box{
+    background-color: #9826F2;
+    grid-area: yellow-box;
+    width: 50vw;
+    height: 10h;
+    border: 1px solid black;
+    margin-right: 5vw;
+    text-align: justify;
+    padding: 35px;
+    color: white;
+}
+
+
+.trabalho-lara{
+    margin-right: 10vw;
+}
+
+
+
+.lisboa{
+    background-color: #9826F2;
+    color: white;
+    padding: 25px;
+
+}
